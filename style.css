@@ -1,0 +1,174 @@
+/* RESET & BODY */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* OUTER GOVERNMENT HEADER */
+.gov-header{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto 25px;
+  padding:15px 25px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:linear-gradient(135deg, #0b3d2e, #1b5e20);
+  border-radius:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.3);
+}
+
+.gov-logo,
+.gov-flag{
+  width:65px;
+  height:auto;
+}
+
+.gov-title{
+  color:#ffffff;
+  font-size:22px;
+  font-weight:900;
+  letter-spacing:2px;
+  text-align:center;
+  flex:1;
+}
+
+
+body {
+  background:
+      linear-gradient(rgba(27,31,59,0.85), rgba(27,31,59,0.85)),
+      url("images/WhatsApp\ Image\ 2025-12-13\ at\ 7.07.50\ PM\ \(1\).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 40px 15px;
+}
+
+
+/* CONTAINER */
+.container{
+  max-width:480px;
+  margin:auto;
+  background:#fff;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.2);
+  padding:30px;
+}
+
+/* HEADER */
+.header{
+  background:linear-gradient(rgba(160,0,0,0.9), rgba(160,0,0,0.9));
+  text-align:center;
+  padding:45px 20px 30px;
+  color:#fff;
+}
+
+.logo{
+  width:95px;
+  height:95px;
+  background:#fff;
+  border-radius:50%;
+  padding:8px;
+  margin:0 auto 15px;
+  box-shadow:0 5px 12px rgba(0,0,0,0.35);
+}
+
+.logo img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+
+.header h1{
+  font-size:26px;
+  letter-spacing:1px;
+}
+
+.header p{
+  font-size:14px;
+  opacity:0.9;
+}
+
+/* FORM */
+.form-box h2{
+  text-align:center;
+  color:#a00000;
+  margin-bottom:18px;
+  font-size:22px;
+}
+
+.input-group{
+  margin-bottom:16px;
+}
+
+.input-group label{
+  display:block;
+  margin-bottom:6px;
+  font-weight:600;
+  color:#1b1f3b;
+  font-size:14px;
+}
+
+.input-group input,
+.input-group select{
+  width:100%;
+  padding:12px;
+  border-radius:6px;
+  border:1px solid #ccd1d9;
+  font-size:14px;
+}
+
+.input-group input:focus,
+.input-group select:focus{
+  border-color:#a00000;
+  outline:none;
+}
+
+/* BUTTONS */
+.btn{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:8px;
+  background:linear-gradient(135deg, #a00000, #ff1e1e);
+  color:#fff;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+/* TABLES */
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+th,td{
+  padding:12px;
+  border-bottom:1px solid #ddd;
+  text-align:center;
+}
+th{
+  background:#1b1f3b;
+  color:#fff;
+}
+.pending{color:orange;font-weight:bold}
+.approved{color:green;font-weight:bold}
+.rejected{color:red;font-weight:bold}
+
+.success{
+  text-align:center;
+  color:green;
+  margin-bottom:10px;
+  font-weight:600;
+}
+
+.footer-text{
+  text-align:center;
+  margin-top:15px;
+  font-size:12px;
+  color:#555;
+}
